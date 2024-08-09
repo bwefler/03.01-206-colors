@@ -59,20 +59,30 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+
   header {
     background-color: red;
   }
 
+  /* #column-1,
+  #column-2,
+  {
+    width: 50%;
+  } */
+  
   #column-1 {
     background-color: orange;
+    width: 50%;
   }
 
   #column-2 {
     background-color: yellow;
+    width: 50%;
   }
 
   #column-3 {
     background-color: green;
+    width: 100%; /* To prevent empty space */
   }
 
   footer {
@@ -86,6 +96,12 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: indigo;
+  }
+
+  #column-1,
+  #column-2,
+  #column-3 {
+    width: 33.333%;
   }
 
   #column-1 {
